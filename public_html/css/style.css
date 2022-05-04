@@ -146,6 +146,7 @@ a {
 
 a,
 .btn {
+
 	text-decoration: none !important;
 	outline: none !important;
 	-webkit-transition: all .3s ease-in-out;
@@ -153,6 +154,20 @@ a,
 	-ms-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
+}
+
+.btnReg{
+        background: #13322B;
+color: white;
+text-decoration: none !important;
+	outline: none !important;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+
+    
 }
 
 img {
@@ -1136,9 +1151,8 @@ nav.main-menu {
 }
 
 .myContainerAbs {
-    position: absolute;
-    /* top: 0px; */
-    bottom: 210px;
+   position: relative;
+    bottom: 30px;
     background: #333333e6;
     padding: 20px;
 }
@@ -1246,6 +1260,8 @@ nav.main-menu {
 	line-height: 30px;
 	padding: 20px 0px;
 }
+
+
 
 .text-c {
 	color: #ffffff;
@@ -1653,9 +1669,11 @@ input[type="radio"] .styled:checked+label::after {
 
 .buy {
 background: #13322B;
+color: white;
 padding: 7px 41px !important;
 margin-top: 18px;
 border-radius: 5px;
+
 display: inline-block;
 float: right;
 }
